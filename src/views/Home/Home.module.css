@@ -1,0 +1,93 @@
+.homepage {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 300px;
+}
+
+.home_title {
+    font-size: 64px;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 1rem;
+}
+
+.home_title_sub {
+    color: white;
+    font-size: 40px;
+    font-weight: 200;
+    width: 724px;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.get_started {
+    width: 200px;
+    padding: 15px 20px;
+    border: 2px solid white;
+    border-radius: 10px;
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    background-color: transparent;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+
+.get_started:hover {
+    background-color: white;
+    color: black;
+}
+
+
+.lang_section {
+    margin-bottom: 100px;
+}
+
+.lang_section_title {
+    font-size: 2rem;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    margin-bottom:4rem
+}
+
+.lang_grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center ;
+    gap: 2rem;
+}
+
+
+.lang_gird_item {
+    width: 380px;
+    height: 20rem;
+    border-radius: 1rem;
+    padding: 2rem;
+    background-color: #ace2fa;    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.image_top {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.image_top p {
+    font-weight: 700;
+}
+
+.lang_button {
+    background-color: #0079ad;
+    padding: 10px 30px;
+    border: 2px solid white;
+    border-radius: 10px ;
+    color: white;
+    cursor: pointer;
+}

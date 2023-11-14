@@ -1,0 +1,27 @@
+.header {
+    margin-top: 3rem;
+    border-radius: 18px;
+    background: #003260;
+    padding: 1rem;
+    margin-bottom: 137px;
+}
+
+.inner_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.link {
+    color: white;
+    text-decoration: none;
+    margin-right: 2rem;
+}
+.link:last-child {
+    margin-right: 0;
+}
+
+.buttons {
+    display: flex;
+    gap: 1rem;
+}
